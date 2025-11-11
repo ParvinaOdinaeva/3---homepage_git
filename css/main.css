@@ -1,0 +1,21 @@
+.mainContainer {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: justify;
+    color: #444;
+    font-family: Montserrat, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+
+.mainContainer__header {
+    color: #012074;
+}
+
+
+.mainContainer__image {
+    margin: 10px;
+    border-radius: 10px;
+    width: 800px;
+    height: 450px;
+}

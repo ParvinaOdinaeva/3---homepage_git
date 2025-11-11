@@ -1,0 +1,27 @@
+.navigation {
+    border: 1px solid rgb(219, 211, 211);
+}
+
+
+.navigation__linkContainer {
+    list-style: none;
+    
+}
+
+
+.navigation__linkContainer--linkElement {
+    color: #20a3dd;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+
+.navigation__linkContainer--linkElement:hover {
+    color: rgb(37, 74, 236);
+}
+
+
+.navigation__linkContainer--linkElement:active {
+    color: rgb(73, 102, 233);
+}

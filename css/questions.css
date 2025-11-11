@@ -1,0 +1,15 @@
+.questions {
+    background-color: #f3f7f7;
+}
+
+
+.questions__header {
+    color: #012074;
+    padding-left: 40px;
+}
+
+
+.questions__paragraph--header {
+    color: #012074;
+    font-weight: 600;
+}

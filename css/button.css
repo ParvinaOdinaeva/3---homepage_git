@@ -1,0 +1,18 @@
+.button {
+    color: white;
+    background-color: #02164e;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.button__styles:hover {
+    color: rgb(145, 155, 202);
+}
+
+
+.button__styles:active {
+    color: rgb(103, 110, 145);
+}
