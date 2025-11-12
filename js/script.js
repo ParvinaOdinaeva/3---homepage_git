@@ -1,14 +1,14 @@
 {
   const hidingAnElement = () => {
-    let questions = document.querySelector(".questions");
-    let questionsChangeWord = document.querySelector(".questionsChangeWord");
+    const questions = document.querySelector(".questions");
+    const questionsChangeWord = document.querySelector(".questionsChangeWord");
 
     questions.classList.toggle("questinsHideContainer");
     questionsChangeWord.innerText = questions.classList.contains("questinsHideContainer") ? "Pokaż" : "Ukryj";
   };
 
   const init = () => {
-    let questionsButton = document.querySelector(".questionsButton");
+    const questionsButton = document.querySelector(".questionsButton");
 
     questionsButton.addEventListener("click", hidingAnElement);
   };
@@ -18,17 +18,17 @@
 
 {
   const onBackgroundButtonChange = () => {
-    let mainContainerBackground = document.querySelector(".mainContainerBackground");
-    let backgroundChangeWord = document.querySelector(".backgroundChangeWord");
+    const mainContainerBackground = document.querySelector(".mainContainerBackground");
+    const backgroundChangeWord = document.querySelector(".backgroundChangeWord");
     
     mainContainerBackground.classList.toggle("mainBackground");
     backgroundChangeWord.innerText = mainContainerBackground.classList.contains("mainBackground") ? "jasne" : "ciemne";
   };
 
   const init = () => {
-  let backgroundButton = document.querySelector(".backgroundButton");  
+    const backgroundButton = document.querySelector(".backgroundButton");  
 
-  backgroundButton.addEventListener("click", onBackgroundButtonChange); 
+    backgroundButton.addEventListener("click", onBackgroundButtonChange); 
 
   };
 
